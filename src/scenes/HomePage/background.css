@@ -1,0 +1,33 @@
+ .cloud1 {
+  position:relative;
+	animation: fly1 15s linear infinite;
+}
+
+.cloud2 {
+	position:absolute;
+	visibility: hidden 5s;
+	animation: fly2 15s linear 5s infinite;
+}
+
+.cloud3 {
+	position:absolute;
+	animation: fly3 15s linear 10s infinite;
+}
+
+@keyframes fly1 {
+  from {transform: translate(-80%, 4%)}
+	to {transform: translate(180%, 4%)}
+}
+
+@keyframes fly2 {
+  from {transform: translate(-80%, -3%) }
+	to {transform: translate(180%, -3%)}
+}
+
+@keyframes fly3 {
+  from {transform: translate(-80%, 11%) }
+	to {transform: translate(180%, 11%)}
+}
+
+
+

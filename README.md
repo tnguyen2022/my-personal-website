@@ -1,5 +1,5 @@
 # personal-website
-My personal fun website - still in progress :)
+My personal fun-site - still in progress :)
 
 --------------------------------------------------
 
